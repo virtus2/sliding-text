@@ -2,8 +2,8 @@
 Unity Text UI that moves automatically from side to side.  
 
 ## Purpose
-If the string is long and appears to be cut, You can extend width of the RectTransform by applying the **Content Size Fitter**,  
-Adjust the font size with **BestFit**. But you may not like either way.  For example, when you have to display long text to a specified width.
+If the string is long and appears to be cut, You can extend width of the RectTransform by applying the **Content Size Fitter**, Adjust the font size with **BestFit**. But you may not like either way.  
+For example, when you have to display long text to a specified width.
   
 ## Feature
 - You can change both the forward and backward scroll speed. Or you can move text to the front immediately.
