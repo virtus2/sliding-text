@@ -364,7 +364,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter your text... Enter your text... Enter your text... Enter your text...
+  m_Text: The Quick Brown Fox Jumps Over The Lazy Dog
 --- !u!222 &604153597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -519,8 +519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollToFrontImmediately: 0
-  scrollToFrontSpeed: 0.001
-  scrollToEndSpeed: 0.001
+  scrollToFrontSpeed: 0.05
+  scrollToEndSpeed: 0.0025
   endStopTime: 0.5
   frontStopTime: 0.5
 --- !u!114 &723243609
