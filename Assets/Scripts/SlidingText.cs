@@ -86,7 +86,7 @@ public class SlidingText : MonoBehaviour
         {
             GameObject go = new GameObject("Text");
             text = go.AddComponent<Text>();
-            text.text = "Enter your text... Enter your text... Enter your text... Enter your text...";
+            text.text = "The Quick Brown Fox Jumps Over The Lazy Dog";
             text.alignment = TextAnchor.MiddleCenter;
             text.raycastTarget = false; // Set this true if need to raycast text.
             
