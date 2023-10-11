@@ -15,8 +15,10 @@ public class SlidingText : MonoBehaviour
     private ScrollRect scrollRect;
     private Mask mask;
     private Image maskImage;
-    private Text text;
     private RectTransform rectTransform; // RectTransform cache
+
+    [Header("Text Component in child"), SerializeField]
+    private Text text;
 
     [Header("If true, Text will go back to front immediately")]
     public bool scrollToFrontImmediately;
@@ -98,11 +100,14 @@ public class SlidingText : MonoBehaviour
 
             scrollRect.content = textRectTransform;
         }
-        
-        if(mask)
+
+        // Turn off the mask so that you can see the text in the editor.
+        if (mask)
         {
-            // Turn off the mask so that you can see the text in the editor.
             mask.showMaskGraphic = false;
+        }
+        if(text)
+        {
             text.maskable = false;
         }
         if(maskImage)
