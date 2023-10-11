@@ -20,6 +20,7 @@
 
 ## Things to improve further
 - Support TextMeshPro
+- Use Linear interpolation
 
 ## Contact
 khd1323@naver.com
