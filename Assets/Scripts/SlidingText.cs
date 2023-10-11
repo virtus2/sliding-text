@@ -61,6 +61,7 @@ public class SlidingText : MonoBehaviour
 
         maskImage.raycastTarget = false;
         mask.enabled = true;
+        text.maskable = true;
     }
 
     private void OnValidate()
@@ -102,6 +103,7 @@ public class SlidingText : MonoBehaviour
         {
             // Turn off the mask so that you can see the text in the editor.
             mask.showMaskGraphic = false;
+            text.maskable = false;
         }
         if(maskImage)
         {
