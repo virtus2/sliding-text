@@ -24,6 +24,7 @@ If the string is long and appears to be cut, You can extend width of the RectTra
 ## Things to improve further
 - Support TextMeshPro
 - Use Linear interpolation
+- Use AnimationCurve
   
 ## Contact
 khd1323@naver.com
